@@ -47,9 +47,9 @@ export default function Home() {
         <meta name="description" content="Things to enjoy before you go!" />
         <link rel="icon" href="/logo1001things.png" />
       </Head>
-      <main className="flex h-screen w-screen flex-col items-center justify-center bg-[#01161e] text-[#f2e9dc]">
+      <main className="flex h-screen w-screen flex-col items-center justify-between bg-[#01161e] text-[#f2e9dc]">
         <div className="flex h-20 w-full items-center justify-center">
-          <h1 className=" text-3xl font-extrabold text-[#f75590]">
+          <h1 className="pt-8 text-3xl font-extrabold text-[#f75590]">
             1001 Things
           </h1>
         </div>
@@ -100,7 +100,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div className="pb-5">
           <a
             href={`https://open.spotify.com/album/${album?.currentAlbum.spotifyId}`}
             target="_blank"
@@ -110,7 +110,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="fixed bottom-0 flex h-16 w-full items-center justify-center bg-[#750d37] text-center">
+        <div className="flex h-16 w-full items-center justify-center bg-[#750d37] text-center">
           <p className="px-5 text-sm font-bold text-[#f75590]">
             &quot;Music is the best, and cheapest, mind-altering drug in the
             world.&quot;
