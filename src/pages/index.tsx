@@ -49,7 +49,7 @@ export default function Home() {
       </Head>
       <main className="flex h-screen w-screen flex-col items-center justify-between bg-[#01161e] text-[#f2e9dc]">
         <div className="flex h-20 w-full items-center justify-center">
-          <h1 className="pt-8 text-3xl font-extrabold text-[#f75590]">
+          <h1 className="bg-gradient-to-l from-[#f75590] to-violet-600 bg-clip-text fill-transparent pt-8 text-3xl font-extrabold  text-transparent">
             1001 Things
           </h1>
         </div>
